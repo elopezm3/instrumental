@@ -1,0 +1,6 @@
+demucs==4.1.0
+gradio==6.32.0
+# 2.15.0 crashes (SIGABRT) on MPS under macOS 14: it calls a macOS 15-only Metal API
+torch==2.14.1
+yt-dlp==2026.11.23
+yt-dlp-ejs==0.8.0
